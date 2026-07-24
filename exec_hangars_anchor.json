@@ -1,0 +1,6 @@
+{
+  "anchorUtc": "2026-07-21T17:37:38.379Z",
+  "anchorBuild": "12269732",
+  "verifiedUtc": null,
+  "note": "PLACEHOLDER — last known-good anchor from build 12269732, which no longer matches the live build. Because anchorBuild != the live build, the /exec-hangars page safely shows 'Timer pending re-sync' (schedule hidden) instead of wrong times. TO GO LIVE: observe the first Pyro Executive Hangar door-open on the CURRENT live build, then set anchorUtc to that UTC instant, anchorBuild to the current build number, and verifiedUtc to when you confirmed it. Commit + push this one file — no site rebuild needed; new page loads pick it up within ~5 min."
+}
