@@ -1,6 +1,6 @@
 {
-  "anchorUtc": "2026-07-22T23:37:42.439Z",
+  "anchorUtc": "2026-07-25T04:03:00.000Z",
   "anchorBuild": "12302499",
-  "verifiedUtc": "2026-07-25T03:56:40Z",
-  "note": "Field-verified in-game 2026-07-25: hangar lights showed 4 green / 1 red (charging, 4 of 5 lit, doors closed), matching the tool's live prediction exactly. Anchor originally cross-sourced from VerseHub for build 12302499, now confirmed against the live game state."
+  "verifiedUtc": "2026-07-25T04:03:00Z",
+  "note": "Direct in-game observation 2026-07-25 00:03 EDT (04:03 UTC): all five lights turned green = doors opening. Replaces the earlier VerseHub-cross-sourced anchor; this is a first-hand door-open, so it is inherently field-verified."
 }
