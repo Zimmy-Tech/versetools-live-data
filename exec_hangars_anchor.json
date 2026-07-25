@@ -1,6 +1,6 @@
 {
-  "anchorUtc": "2026-07-21T17:37:38.379Z",
-  "anchorBuild": "12269732",
+  "anchorUtc": "2026-07-22T23:37:42.439Z",
+  "anchorBuild": "12302499",
   "verifiedUtc": null,
-  "note": "PLACEHOLDER — last known-good anchor from build 12269732, which no longer matches the live build. Because anchorBuild != the live build, the /exec-hangars page safely shows 'Timer pending re-sync' (schedule hidden) instead of wrong times. TO GO LIVE: observe the first Pyro Executive Hangar door-open on the CURRENT live build, then set anchorUtc to that UTC instant, anchorBuild to the current build number, and verifiedUtc to when you confirmed it. Commit + push this one file — no site rebuild needed; new page loads pick it up within ~5 min."
+  "note": "Anchor cross-sourced from VerseHub (versehub.space/exec-hangar) on 2026-07-24 for the current live build 12302499. Model matches our DCB extract (65min open / 120min closed / 185min cycle / 266ms drift). NOT yet in-game field-verified — confirm the live countdown before treating as prod-authoritative; a shard re-anchor since 2026-07-22 could invalidate it."
 }
