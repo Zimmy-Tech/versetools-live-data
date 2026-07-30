@@ -1,6 +1,6 @@
 {
-  "anchorUtc": "2026-07-25T04:03:00.000Z",
-  "anchorBuild": "12302499",
-  "verifiedUtc": "2026-07-25T04:03:00Z",
-  "note": "Direct in-game observation 2026-07-25 00:03 EDT (04:03 UTC): all five lights turned green = doors opening. Replaces the earlier VerseHub-cross-sourced anchor; this is a first-hand door-open, so it is inherently field-verified."
+  "anchorUtc": "2026-07-28T18:57:04.432Z",
+  "anchorBuild": "12326004",
+  "verifiedUtc": "2026-07-28T18:57:04Z",
+  "note": "Synced 2026-07-29 to a cross-referenced, field-verified door-open observation (2026-07-28 14:57 EDT). Pinned to the current LIVE build so the timer goes live. Re-anchor from a first-hand in-game door-open when convenient."
 }
