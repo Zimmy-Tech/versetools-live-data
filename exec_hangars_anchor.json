@@ -1,6 +1,6 @@
 {
   "anchorUtc": "2026-07-28T18:57:04.432Z",
-  "anchorBuild": "12326004",
+  "anchorBuild": "12344265",
   "verifiedUtc": "2026-07-28T18:57:04Z",
-  "note": "Synced 2026-07-29 to a cross-referenced, field-verified door-open observation (2026-07-28 14:57 EDT). Pinned to the current LIVE build so the timer goes live. Re-anchor from a first-hand in-game door-open when convenient."
+  "note": "Re-tagged 2026-07-30 to LIVE hotfix build 12344265 (backend-only, door cycle unchanged) so the timer stays live. Same cross-referenced, field-verified door-open observation (2026-07-28 14:57 EDT) carries forward. Re-anchor from a first-hand in-game door-open when convenient."
 }
