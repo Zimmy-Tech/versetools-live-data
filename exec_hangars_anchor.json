@@ -1,6 +1,6 @@
 {
-  "anchorUtc": "2026-07-28T18:57:04.432Z",
-  "anchorBuild": "12344265",
-  "verifiedUtc": "2026-07-28T18:57:04Z",
-  "note": "Re-tagged 2026-07-30 to LIVE hotfix build 12344265 (backend-only, door cycle unchanged) so the timer stays live. Same cross-referenced, field-verified door-open observation (2026-07-28 14:57 EDT) carries forward. Re-anchor from a first-hand in-game door-open when convenient."
+  "anchorUtc": "2026-08-26T18:12:21.122Z",
+  "anchorBuild": "12519617",
+  "verifiedUtc": null,
+  "note": "Re-synced 2026-08-26 for 4.10 LIVE from the community timer (exec.xyxyll.com, app.js v2.2.25, lastModified 2026-Aug-26): INITIAL_OPEN_TIME 2026-08-26T14:12:21.122-04:00 = 18:12:21.122Z. That timer reports 'Server Version 12521601'; anchorBuild is tagged 12519617 to match the client p4k build VerseTools extracts (4.10.0-live.12519617), which is what the staleness check compares against - the two numbering schemes differ. CYCLE_DRIFT_MS (1027) and the 65/120-min window are unchanged from the bundled config, so no site rebuild was needed. Not yet first-hand field-verified by us; set verifiedUtc after a direct in-game door-open observation."
 }
