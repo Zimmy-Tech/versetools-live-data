@@ -1,6 +1,6 @@
 {
-  "anchorUtc": "2026-08-26T18:12:21.122Z",
-  "anchorBuild": "12545750",
+  "anchorUtc": "2026-08-31T20:45:18.872Z",
+  "anchorBuild": "12568521",
   "verifiedUtc": null,
-  "note": "Anchor unchanged from the 2026-08-26 re-sync (community timer exec.xyxyll.com, INITIAL_OPEN_TIME 2026-08-26T14:12:21.122-04:00 = 18:12:21.122Z, CYCLE_DRIFT_MS 1027). Re-tagged to build 12545750 (4.10.0 LIVE hotfix, built Aug 28) on 2026-08-31: that timer's INITIAL_OPEN_TIME and drift were still byte-identical three days after the hotfix shipped, and a cycle re-phase would have put it ~86 min out and been caught. Note the 2026-07-28 -> 2026-08-26 anchors were NOT cycle-equivalent (~86 min residual), so re-phasing on shard-restarting builds is real - this is an assertion from an unmoved third-party timer, NOT a first-hand observation. Set verifiedUtc after a direct in-game door-open observation."
+  "note": "Re-synced 2026-09-04 from the community timer (exec.xyxyll.com/app.js): INITIAL_OPEN_TIME 2026-08-31T16:45:18.872-04:00 = 20:45:18.872Z, CYCLE_DRIFT_MS 1027. That timer RE-ANCHORED on 2026-08-31, after the previous note here was written. The new value is NOT cycle-equivalent to the prior 2026-08-26 anchor - residual -47.7 min against the 185.0171-min cycle - so this timer had been ~48 min wrong from Aug 31 until now. That is the second observed re-phase (2026-07-28 -> 2026-08-26 was ~86 min), confirming the cycle re-phases whenever shards restart. LESSON: always compute the residual mod CYCLE_DURATION; do NOT eyeball INITIAL_OPEN_TIME for equality - the previous 'byte-identical' check is exactly what missed this. CAVEAT: the community observation is from build 12545750; asserted forward to 12568521 (4.10.0-hotfix, shipped Sep 3). NOT a first-hand observation - if that hotfix restarted shards, this anchor and the community timer are both re-phased until someone observes a door-open on 12568521. Set verifiedUtc after a direct in-game observation."
 }
